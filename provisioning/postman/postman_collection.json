@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "1ded3495-1968-40fa-8531-712bd78ac634",
+		"name": "waminsoftware",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14588068",
+		"_collection_link": "https://www.postman.com/material-geoscientist-79853921/workspace/postman-api-fundamentals-student-expert/collection/14588068-1ded3495-1968-40fa-8531-712bd78ac634?action=share&source=collection_link&creator=14588068"
+	},
+	"item": [
+		{
+			"name": "Circle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shapeType\": \"CIRCLE\",\r\n\t\"radius\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/geometry/shapes",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"geometry",
+						"shapes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rectangle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shapeType\": \"RECTANGLE\",\r\n\t\t\"length\": 1,\r\n    \"width\": 12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/geometry/shapes",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"geometry",
+						"shapes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Square",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shapeType\": \"RECTANGLE\",\r\n\t\t\"length\": 1,\r\n    \"width\": 12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/geometry/shapes",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"geometry",
+						"shapes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Triangle",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shapeType\": \"TRIANGLE\",\r\n\t\"sideA\": 8,\r\n    \"sideB\": 12,\r\n    \"sideC\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/geometry/shapes",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"geometry",
+						"shapes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

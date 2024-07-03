@@ -1,0 +1,8 @@
+common-5xx-message: "When server error happened."
+
+shapes:
+  calculation:
+    summary: 'Calculates area and perimeter.'
+    description: 'Accepts input for calculating the area and perimeter of different geometric shapes.'
+    response:
+      ok: 'When area and perimeter was successfully returned.'
